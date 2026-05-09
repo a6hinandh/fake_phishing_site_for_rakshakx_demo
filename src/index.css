@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+@reference "tailwindcss";
+
+@theme {
+  --color-sbi-blue: #2b3481;
+  --color-sbi-light-blue: #00a5ec;
+  --color-sbi-dark-blue: #1e245a;
+  --color-sbi-warning: #ff9933;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[--color-sbi-blue] hover:bg-[--color-sbi-dark-blue] text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 shadow-md active:scale-95 flex items-center justify-center gap-2;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[--color-sbi-light-blue] focus:border-transparent outline-none transition-all duration-200 bg-white;
+  }
+
+  .glass-card {
+    @apply bg-white/90 backdrop-blur-sm border border-white/20 shadow-xl rounded-2xl;
+  }
+  
+  .badge-secure {
+    @apply flex items-center gap-1.5 text-xs font-medium text-green-600 bg-green-50 px-2.5 py-1 rounded-full border border-green-100;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full hover:bg-gray-400 transition-colors;
+}
+
+/* Animations */
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+.animate-pulse-soft {
+  animation: pulse-soft 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
