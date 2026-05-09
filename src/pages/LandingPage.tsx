@@ -1,5 +1,5 @@
 // ...existing code...
-import { ChevronRight, FileText, Smartphone, Scale, Gavel, HelpCircle } from 'lucide-react';
+import { ChevronRight, FileText, Smartphone, Scale, Gavel, HelpCircle, ShieldAlert } from 'lucide-react';
 import WarningBanner from '../components/WarningBanner';
 import { motion } from 'framer-motion';
 import { useSecureNavigate } from './DeviceVerification';
