@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Monitor, Smartphone, ShieldCheck, Search, Loader2 } from 'lucide-react';
+import { Monitor, ShieldCheck, Search, Loader2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const DeviceVerification: React.FC = () => {

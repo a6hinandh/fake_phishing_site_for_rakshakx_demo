@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle2, ShieldCheck, Download, ExternalLink, Clock, AlertTriangle, Scale } from 'lucide-react';
+import { CheckCircle2, ShieldCheck, Download, Clock, AlertTriangle, Scale } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const SuccessPage: React.FC = () => {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ShieldAlert, X, AlertOctagon, ArrowRight } from 'lucide-react';
+import { X, AlertOctagon, ArrowRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const ScamPopup: React.FC = () => {

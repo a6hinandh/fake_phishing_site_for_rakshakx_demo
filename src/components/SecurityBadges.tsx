@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Lock, Globe, Server, CheckSquare } from 'lucide-react';
+import { ShieldCheck, Lock, Globe, Server } from 'lucide-react';
 
 const SecurityBadges: React.FC = () => {
   return (
