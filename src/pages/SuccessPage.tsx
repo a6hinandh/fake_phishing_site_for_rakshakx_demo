@@ -1,4 +1,4 @@
-import React from 'react';
+// ...existing code...
 import { CheckCircle2, ShieldCheck, Download, Clock, AlertTriangle, Scale } from 'lucide-react';
 import { motion } from 'framer-motion';
 

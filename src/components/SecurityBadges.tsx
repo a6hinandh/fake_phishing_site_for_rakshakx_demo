@@ -1,4 +1,4 @@
-import React from 'react';
+// ...existing code...
 import { ShieldCheck, Lock, Globe, Server } from 'lucide-react';
 
 const SecurityBadges: React.FC = () => {

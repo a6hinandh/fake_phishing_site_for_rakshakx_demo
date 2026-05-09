@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { ShieldAlert, RefreshCw, PhoneCall, CheckCircle2, MessageSquare, ShieldCheck, AlertCircle } from 'lucide-react';
 import WarningBanner from '../components/WarningBanner';
 import { motion } from 'framer-motion';
